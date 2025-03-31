@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3368449c-3f95-4fe5-bdb7-cde90422ee38" name="Changes" comment="" />
+    <list default="true" id="3368449c-3f95-4fe5-bdb7-cde90422ee38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/DependencyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/SlotGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/config/ArgumentParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/config/ArgumentValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/config/Arguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/config/ConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/config/GameConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/GameEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/GameResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/RewardCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/board/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/board/GameBoardGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/board/ProbabilityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/board/RandomSymbolResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/combination/CombinationEvaluationFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/combination/CombinationEvaluationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/combination/SameSymbolsEvaluationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/combination/SpecificCoordinatesEvaluationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/cyberspeed/testgame/game/engine/combination/WinningCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/resources/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/DependencyManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/SlotGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/config/ArgumentParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/config/ArgumentValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/config/ConfigLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/engine/GameEngineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/engine/RewardCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/engine/board/GameBoardGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/engine/board/ProbabilityCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/engine/combination/CombinationEvaluationFacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/engine/combination/SameSymbolsEvaluationStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/java/com/cyberspeed/testgame/game/engine/combination/SpecificCoordinatesEvaluationStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/test/resources/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost_game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/won_game_3x3.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +62,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -27,6 +72,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2uoIrIRXgL19PuDBQi0JgaEE0np" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,6 +80,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Application.executor": "Run",
+    "JUnit.All in game.executor": "Run",
     "JUnit.ArgumentParserTest.executor": "Run",
     "JUnit.ArgumentValidatorTest.executor": "Run",
     "JUnit.CombinationEvaluationFacadeTest.executor": "Run",
@@ -52,11 +99,14 @@
     "JUnit.SameSymbolsEvaluationStrategyTest.executor": "Run",
     "JUnit.SlotGameTest.executor": "Run",
     "JUnit.SpecificCoordinatesEvaluationStrategyTest.executor": "Run",
+    "Maven.game [clean].executor": "Run",
+    "Maven.game [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/iriya/IdeaProjects/personal/take-home-assignment/game/src/test/resources",
+    "last_opened_file_path": "/Users/iriya/IdeaProjects/personal/take-home-assignment",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,15 +116,15 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/game/src/test/resources" />
       <recent name="$PROJECT_DIR$/game/src/test/java" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/game/src/main/resources" />
@@ -95,7 +145,30 @@
       <recent name="com.cyberspeed.testgame.game" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameBoardGeneratorTest">
+  <component name="RunManager" selected="JUnit.All in game">
+    <configuration name="All in game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="game" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArgumentParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cyberspeed.testgame.game.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cyberspeed.testgame.game.config" />
+      <option name="MAIN_CLASS_NAME" value="com.cyberspeed.testgame.game.config.ArgumentParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GameBoardGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="game" />
       <extension name="coverage">
@@ -143,50 +216,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbabilityCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cyberspeed.testgame.game.engine.board.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cyberspeed.testgame.game.engine.board" />
-      <option name="MAIN_CLASS_NAME" value="com.cyberspeed.testgame.game.engine.board.ProbabilityCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecificCoordinatesEvaluationStrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cyberspeed.testgame.game.engine.combination.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cyberspeed.testgame.game.engine.combination" />
-      <option name="MAIN_CLASS_NAME" value="com.cyberspeed.testgame.game.engine.combination.SpecificCoordinatesEvaluationStrategyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.All in game" />
+      <item itemvalue="JUnit.ArgumentParserTest" />
       <item itemvalue="JUnit.GameBoardGeneratorTest" />
       <item itemvalue="JUnit.GameBoardGeneratorTest.testBonusSymbolIsApplied" />
       <item itemvalue="JUnit.GameBoardGeneratorTest.testGenerateBoardDimensions" />
-      <item itemvalue="JUnit.ProbabilityCalculatorTest" />
-      <item itemvalue="JUnit.SpecificCoordinatesEvaluationStrategyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in game" />
+        <item itemvalue="JUnit.ArgumentParserTest" />
         <item itemvalue="JUnit.GameBoardGeneratorTest" />
         <item itemvalue="JUnit.GameBoardGeneratorTest.testBonusSymbolIsApplied" />
         <item itemvalue="JUnit.GameBoardGeneratorTest.testGenerateBoardDimensions" />
-        <item itemvalue="JUnit.ProbabilityCalculatorTest" />
-        <item itemvalue="JUnit.SpecificCoordinatesEvaluationStrategyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,10 +258,27 @@
       <workItem from="1743065712627" duration="598000" />
       <workItem from="1743081490613" duration="1230000" />
       <workItem from="1743096191312" duration="28815000" />
+      <workItem from="1743408237439" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

@@ -3,9 +3,8 @@ package com.cyberspeed.testgame.game.config;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-import com.cyberspeed.testgame.game.config.ArgumentParser;
-import com.cyberspeed.testgame.game.config.Arguments;
 import org.junit.jupiter.api.Test;
+import java.math.BigDecimal;
 
 class ArgumentParserTest {
 
@@ -17,7 +16,7 @@ class ArgumentParserTest {
         Arguments result = argumentParser.parse(args);
 
         assertEquals("config-file-path", result.fileUrl());
-        assertEquals(100.0, result.bettingAmount());
+        assertEquals(BigDecimal.valueOf(100.0), result.bettingAmount());
     }
 
     @Test
@@ -35,7 +34,7 @@ class ArgumentParserTest {
         Arguments result = argumentParser.parse(args);
 
         assertNull(result.fileUrl());
-        assertEquals(50.0, result.bettingAmount());
+        assertEquals(BigDecimal.valueOf(50.0), result.bettingAmount());
     }
 
     @Test
