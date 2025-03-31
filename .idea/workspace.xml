@@ -80,6 +80,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Application.executor": "Run",
+    "JAR Application.game-1.0-SNAPSHOT.jar.executor": "Run",
     "JUnit.All in game.executor": "Run",
     "JUnit.ArgumentParserTest.executor": "Run",
     "JUnit.ArgumentValidatorTest.executor": "Run",
@@ -145,7 +146,7 @@
       <recent name="com.cyberspeed.testgame.game" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in game">
+  <component name="RunManager" selected="JAR Application.game-1.0-SNAPSHOT.jar">
     <configuration name="All in game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="game" />
       <option name="PACKAGE_NAME" value="" />
@@ -200,36 +201,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameBoardGeneratorTest.testGenerateBoardDimensions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cyberspeed.testgame.game.engine.board.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cyberspeed.testgame.game.engine.board" />
-      <option name="MAIN_CLASS_NAME" value="com.cyberspeed.testgame.game.engine.board.GameBoardGeneratorTest" />
-      <option name="METHOD_NAME" value="testGenerateBoardDimensions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="game-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/game/target/game-1.0-SNAPSHOT.jar" />
+      <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JAR Application.game-1.0-SNAPSHOT.jar" />
       <item itemvalue="JUnit.All in game" />
       <item itemvalue="JUnit.ArgumentParserTest" />
       <item itemvalue="JUnit.GameBoardGeneratorTest" />
       <item itemvalue="JUnit.GameBoardGeneratorTest.testBonusSymbolIsApplied" />
-      <item itemvalue="JUnit.GameBoardGeneratorTest.testGenerateBoardDimensions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.game-1.0-SNAPSHOT.jar" />
         <item itemvalue="JUnit.All in game" />
         <item itemvalue="JUnit.ArgumentParserTest" />
         <item itemvalue="JUnit.GameBoardGeneratorTest" />
         <item itemvalue="JUnit.GameBoardGeneratorTest.testBonusSymbolIsApplied" />
-        <item itemvalue="JUnit.GameBoardGeneratorTest.testGenerateBoardDimensions" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +248,7 @@
       <workItem from="1743081490613" duration="1230000" />
       <workItem from="1743096191312" duration="28815000" />
       <workItem from="1743408237439" duration="302000" />
+      <workItem from="1743408544779" duration="672000" />
     </task>
     <servers />
   </component>
