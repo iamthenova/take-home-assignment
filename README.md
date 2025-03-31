@@ -30,7 +30,7 @@ Bonus symbols are described the table below:
 | F           | 1.5               |
 
 
-**Bonus Symbols**: Bonus symbols are only effective when there are at least one winning combinations matches with the generated matrix. 
+**Bonus Symbols**: Bonus symbols are only effective when there are at least one winning combinations matches with the generated matrix.
 Bonus symbols are described the table below:
 
 | Symbol Name | Action                       |
